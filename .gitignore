@@ -1,0 +1,42 @@
+# Root level
+node_modules/
+.env
+.env.*  # in case of multiple env files like .env.development
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Optional logs & backups
+*.gz
+*.zip
+*.bak
+
+# React build (if frontend is in a separate folder)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Node backend (e.g., Express)
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Local dev files
+*.local

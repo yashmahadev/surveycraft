@@ -1,0 +1,1013 @@
+[
+    {
+      "title": "Patient Intake Form",
+      "description": "Collect essential information from new patients before their appointment.",
+      "category": "Healthcare",
+      "questions": 8,
+      "estimatedTime": 10,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Date of Birth",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Email Address",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Gender",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Male",
+            "Female",
+            "Other"
+          ]
+        },
+        {
+          "label": "Medical History",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Known Allergies",
+          "type": "text",
+          "required": false
+        },
+        {
+          "label": "Insurance Provider",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Job Application Form",
+      "description": "Collect applicant details for job openings.",
+      "category": "Human Resources",
+      "questions": 9,
+      "estimatedTime": 12,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Position Applied For",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Years of Experience",
+          "type": "Number",
+          "required": true
+        },
+        {
+          "label": "Highest Qualification",
+          "type": "select",
+          "required": true,
+          "options": [
+            "High School",
+            "Bachelor's",
+            "Master's",
+            "PhD"
+          ]
+        },
+        {
+          "label": "Paste Resume Text",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Willing to Relocate?",
+          "type": "radio",
+          "required": true,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "label": "Relevant Skills",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "JavaScript",
+            "Python",
+            "React",
+            "PHP",
+            "Other"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "E-commerce Form",
+      "description": "Form used in e-commerce industry for typical use cases.",
+      "category": "E-commerce",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Education Form",
+      "description": "Form used in education industry for typical use cases.",
+      "category": "Education",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Finance Form",
+      "description": "Form used in finance industry for typical use cases.",
+      "category": "Finance",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Real Estate Form",
+      "description": "Form used in real estate industry for typical use cases.",
+      "category": "Real Estate",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Hospitality Form",
+      "description": "Form used in hospitality industry for typical use cases.",
+      "category": "Hospitality",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "IT Services Form",
+      "description": "Form used in it services industry for typical use cases.",
+      "category": "IT Services",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Event Management Form",
+      "description": "Form used in event management industry for typical use cases.",
+      "category": "Event Management",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Legal Form",
+      "description": "Form used in legal industry for typical use cases.",
+      "category": "Legal",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Marketing Form",
+      "description": "Form used in marketing industry for typical use cases.",
+      "category": "Marketing",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Manufacturing Form",
+      "description": "Form used in manufacturing industry for typical use cases.",
+      "category": "Manufacturing",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Transportation Form",
+      "description": "Form used in transportation industry for typical use cases.",
+      "category": "Transportation",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Non-Profit Form",
+      "description": "Form used in non-profit industry for typical use cases.",
+      "category": "Non-Profit",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Retail Form",
+      "description": "Form used in retail industry for typical use cases.",
+      "category": "Retail",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Travel Form",
+      "description": "Form used in travel industry for typical use cases.",
+      "category": "Travel",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Insurance Form",
+      "description": "Form used in insurance industry for typical use cases.",
+      "category": "Insurance",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Construction Form",
+      "description": "Form used in construction industry for typical use cases.",
+      "category": "Construction",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Entertainment Form",
+      "description": "Form used in entertainment industry for typical use cases.",
+      "category": "Entertainment",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    },
+    {
+      "title": "Fitness Form",
+      "description": "Form used in fitness industry for typical use cases.",
+      "category": "Fitness",
+      "questions": 6,
+      "estimatedTime": 8,
+      "fields": [
+        {
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "label": "Phone Number",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Preferred Contact Method",
+          "type": "select",
+          "required": false,
+          "options": [
+            "email",
+            "Phone",
+            "text"
+          ]
+        },
+        {
+          "label": "Comments",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "label": "Subscribe to Updates",
+          "type": "checkbox",
+          "required": false,
+          "options": [
+            "Yes"
+          ]
+        }
+      ],
+      "createdAt": "2025-04-29T10:20:40.595010Z",
+      "updatedAt": "2025-04-29T10:20:40.595010Z"
+    }
+  ]
