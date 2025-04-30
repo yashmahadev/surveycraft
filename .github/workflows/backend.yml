@@ -29,5 +29,8 @@ jobs:
       - name: Build backend
         run: npm run build
 
+      - name: Run Lint
+        run: npm run lint
+
       - name: Deploy to Render
         run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}

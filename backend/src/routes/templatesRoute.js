@@ -1,5 +1,10 @@
 const express = require("express");
-const { getTemplates, getTemplateById, createTemplate, cloneTemplate } = require("../controllers/templateController");
+const {
+  getTemplates,
+  getTemplateById,
+  createTemplate,
+  cloneTemplate,
+} = require("../controllers/templateController");
 const router = express.Router();
 const authMiddleware = require("../middlewares/authMiddleware");
 

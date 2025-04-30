@@ -4,8 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.js",
+    "build": "tsc",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +31,11 @@
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@eslint/js": "^9.25.1",
+    "eslint": "^8.57.1",
+    "globals": "^16.0.0",
+    "husky": "^9.0.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.0.0"
   }
 }
