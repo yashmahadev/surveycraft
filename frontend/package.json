@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}' --ignore-pattern 'src/components/ui/*'",
-    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,css,scss,md}'",
     "clean:code": "npm run lint:fix && npm run format",
     "clean:unused": "eslint . --ext .ts,.tsx --fix"
