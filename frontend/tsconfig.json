@@ -15,8 +15,17 @@
       "@/*": ["src/*"]
     },
     "strict": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "strictNullChecks": false,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "useUnknownInCatchVariables": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

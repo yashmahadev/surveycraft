@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { BASE_API_URL } from '../config/config';
 
-const API_URL = 'https://surveycraft-6avv.onrender.com/api/auth'; // Update this with your backend URL
+const API_URL = `${BASE_API_URL}/auth`;
 
 interface User {
   name: string;

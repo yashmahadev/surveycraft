@@ -1,8 +1,9 @@
 import axios from 'axios';
+import { BASE_API_URL } from '../config/config';
 import { authService } from './authService';
 
 const api = axios.create({
-  baseURL: 'https://surveycraft-6avv.onrender.com/api',
+  baseURL: BASE_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
