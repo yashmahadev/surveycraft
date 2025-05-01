@@ -28,7 +28,6 @@ export function Login() {
 
     try {
       const response = await authService.login({ email, password });
-      console.log('Login response:', response);
       // Get the return URL from location state or default to dashboard
       const from =
         (location.state as { from?: { pathname: string } })?.from?.pathname || '/dashboard';

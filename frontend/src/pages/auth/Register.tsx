@@ -40,9 +40,7 @@ export function Register() {
 
     try {
       // Here you would integrate with your authentication service
-      console.log('Registration attempt:', { name, email, password });
       const response = await authService.register({ name, email, password });
-      console.log('Register response:', response);
 
       // Simulate a successful registration
       setTimeout(() => {

@@ -51,8 +51,6 @@ export default function SurveyPreviewPage() {
 
   const handleSubmit = async (formData: Record<string, string | string[] | boolean>) => {
     try {
-      // In preview mode, we just log the data
-      console.log('Form submitted:', formData);
       setIsSubmitted(true);
 
       toast({

@@ -1,21 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import { formService, Form } from '../../services/formService';
+import { formService } from '../../services/formService';
 import { Button } from '@/components/ui/button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Loader2, Plus, Trash2, Eye, Edit, Copy, List } from 'lucide-react';
+import { Loader2 } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { SurveyCard } from '@/components/surveys/SurveyCard';
+import { Form } from '@/types/form';
 
 export function SurveysListPage() {
   const [forms, setForms] = useState<Form[]>([]);
@@ -30,9 +22,7 @@ export function SurveysListPage() {
     try {
       setLoading(true);
       setError(null);
-      console.log('Fetching forms for page:', page);
       const response = await formService.getForms(page);
-      console.log('Forms response: => ', response);
       if (response?.forms) {
         setForms(response.forms);
         setTotalPages(Math.ceil(response.total / response.limit));
@@ -51,15 +41,12 @@ export function SurveysListPage() {
 
   // Call fetchForms when component mounts
   useEffect(() => {
-    console.log('Component mounted, fetching forms...');
     fetchForms();
   }, [fetchForms]);
 
   // Call fetchForms when page changes
   useEffect(() => {
     if (page > 1) {
-      // Don't fetch again on initial mount
-      console.log('Page changed, fetching forms...');
       fetchForms();
     }
   }, [page, fetchForms]);
@@ -81,7 +68,6 @@ export function SurveysListPage() {
       const updatedForm = isPublished
         ? await formService.publishForm(id, false)
         : await formService.publishForm(id, true);
-      console.log('Updated form:', updatedForm, forms);
       setForms(forms.map(form => (form.id === id ? updatedForm : form)));
     } catch (err) {
       console.error('Error updating form status:', err);

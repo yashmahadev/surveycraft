@@ -47,7 +47,6 @@ export default function SurveyFill() {
   };
 
   const handleSubmit = (formData: Record<string, string>) => {
-    console.log('Form submitted:', formData);
     setIsSubmitted(true);
   };
 
