@@ -14,11 +14,11 @@ export function Footer() {
         <div className="flex flex-col gap-2">
           <h3 className="font-semibold">Product</h3>
           <ul className="space-y-1">
-            <li>
+            {/* <li>
               <Link to="/features" className="text-sm hover:text-survey-purple transition-colors">
                 Features
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/templates" className="text-sm hover:text-survey-purple transition-colors">
                 Templates
@@ -32,7 +32,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-semibold">Resources</h3>
           <ul className="space-y-1">
             <li>
@@ -51,12 +51,12 @@ export function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-2">
           <h3 className="font-semibold">Company</h3>
           <ul className="space-y-1">
-            <li>
+            {/* <li>
               <Link to="/about" className="text-sm hover:text-survey-purple transition-colors">
                 About
               </Link>
@@ -65,10 +65,15 @@ export function Footer() {
               <Link to="/contact" className="text-sm hover:text-survey-purple transition-colors">
                 Contact
               </Link>
+            </li> */}
+            <li>
+              <Link to="/privacy-policy" className="text-sm hover:text-survey-purple transition-colors">
+                Privacy Policy
+              </Link>
             </li>
             <li>
-              <Link to="/terms" className="text-sm hover:text-survey-purple transition-colors">
-                Terms & Privacy
+              <Link to="/terms-of-service" className="text-sm hover:text-survey-purple transition-colors">
+                Terms & Services
               </Link>
             </li>
           </ul>
