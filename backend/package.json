@@ -6,10 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.js",
-    "build": "esbuild src/server.js --bundle --platform=node --outdir=dist --external:pg-hstore",
+    "build": "npx esbuild src/server.js --bundle --platform=node --outdir=dist --external:pg-hstore",
+    "test:build": "esbuild src/server.js --bundle --platform=node --outdir=dist --external:pg-hstore",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write .",
     "type-check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
