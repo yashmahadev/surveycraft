@@ -16,6 +16,9 @@ import FormResponsesPage from './pages/surveys/FormResponsesPage';
 import LandingPage from './pages/home/Landing';
 import NotFoundPage from './pages/NotFound';
 import SurveyError from './pages/SurveyError';
+import { Toaster } from '@/components/ui/toaster';
+import TermsOfService from './pages/internal/TermsOfService';
+import PrivacyPolicy from './pages/internal/PrivacyPolicy';
 
 export default function App() {
   return (
@@ -26,6 +29,22 @@ export default function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<LandingPage />} />
           </Route>
+          <Route
+            path="/terms-of-service"
+            element={
+              <PublicRoute>
+                <TermsOfService />
+              </PublicRoute>
+            }
+          />
+          <Route
+            path="/privacy-policy"
+            element={
+              <PublicRoute>
+                <PrivacyPolicy />
+              </PublicRoute>
+            }
+          />
           <Route
             path="/login"
             element={
@@ -109,6 +128,7 @@ export default function App() {
           </Route>
         </Routes>
       </Router>
+      <Toaster />
     </AuthProvider>
   );
 }

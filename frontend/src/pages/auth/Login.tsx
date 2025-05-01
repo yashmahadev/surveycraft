@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { authService } from '@/services/authService';
+import { useToast } from '@/components/ui/use-toast';
 
 export function Login() {
   const [email, setEmail] = useState('');
@@ -20,6 +21,7 @@ export function Login() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
   const location = useLocation();
+  const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,12 +30,19 @@ export function Login() {
 
     try {
       const response = await authService.login({ email, password });
+      console.log(response);
+      
       // Get the return URL from location state or default to dashboard
       const from =
         (location.state as { from?: { pathname: string } })?.from?.pathname || '/dashboard';
       navigate(from, { replace: true });
     } catch (err) {
       if (err instanceof Error) {
+        toast({
+          title: 'Authentication',
+          description: err.message,
+          variant: 'destructive',
+        });
         setError(err.message);
       } else {
         setError('An unexpected error occurred');

@@ -121,11 +121,11 @@ export function Register() {
                   className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
                   I agree to the{' '}
-                  <Link to="/terms" className="text-primary hover:underline">
+                  <Link to="/terms-of-service" className="text-primary hover:underline">
                     terms of service
                   </Link>{' '}
                   and{' '}
-                  <Link to="/privacy" className="text-primary hover:underline">
+                  <Link to="/privacy-policy" className="text-primary hover:underline">
                     privacy policy
                   </Link>
                 </label>
