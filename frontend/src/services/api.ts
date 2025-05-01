@@ -2,7 +2,7 @@ import axios from 'axios';
 import { authService } from './authService';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://surveycraft-6avv.onrender.com:5000/api',
   headers: {
     'Content-Type': 'application/json',
   },
