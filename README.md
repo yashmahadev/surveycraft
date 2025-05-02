@@ -17,8 +17,7 @@ SurveyCraft is a dynamic survey and feedback form builder that enables users to 
 - 📦 RESTful APIs for managing forms and responses
 
 ## 📷 Screenshots
-
-> _Add screenshots/gifs of your form builder UI, preview, analytics dashboard, and form submission page here._
+![SurveyCraft](https://media-hosting.imagekit.io/5b5ace14b50c4cfc/surveycraft.png?Expires=1840766445&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=myxTT4iG82htT4egNQK~GtC567JPlgLYg8EJhkD9w0ysZr2Fu9EYDdWW6rCWhgrm6Y30PHZBHj0iM1jjMjfMJIeSVehwwLUdPocmICtVvaB190U5MFnYkZkm~1TNfsPNwjjpwRMXuRVDkvCl~Jtp4hrfVs5GCEK6GhGhBDBbBAhibjOPLydWvZK2SQd-ic0VDUE24Jmb9cO7imYlGRuKcc14bXs6OicMHx7xw6cs3nJjYP~~H0HAO83DRcipoYDjwPeirFjnv9leA20OC~K56~ImlZHPcaV6VXu~dlSRzUD1ixL3StlvrZCGP9lkg3ves~YWQuJxmAhLIaloMJcv1w__)
 
 ## 🧰 Tech Stack
 
