@@ -91,4 +91,4 @@ This project is licensed under the MIT License.
 
 ---
 
-### ✨ Crafted with care by [Your Name]
+### ✨ Crafted with care by Yash Mahadevwala
